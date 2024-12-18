@@ -50,7 +50,7 @@ export function CardModal({ player, isOpen, onClose }: CardModalProps) {
                       player.rarity === 'epic' ? 'success' : 'info'
                     }
                   >
-                    {player.rarity.toUpperCase()}
+                    {player.rarity ? player.rarity.toUpperCase() : 'UNKNOWN'}
                   </Badge>
                 </div>
               </div>

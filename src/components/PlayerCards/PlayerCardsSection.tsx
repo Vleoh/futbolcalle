@@ -8,7 +8,7 @@ import { CardReveal } from './CardPackOpening/CardReveal';
 import { Button } from '../ui/Button';
 import { type Player } from './types';
 import { motion } from 'framer-motion';
-const imgpath='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6ML6DiP3GVWoQcyq7hoD-o6qCBzIiQ7WUK1WijcE&usqp=CAE&s'
+const imgpath='https://library.sportingnews.com/2021-11/lionel-messi-otw-fifa-22_1xvjdobr0kphp1ia4f5cevrc81.png'
 const MOCK_PLAYERS = [
   { id: 1, name: 'Lionel Messi', position: 'Forward', image: imgpath },
   { id: 2, name: 'Cristiano Ronaldo', position: 'Forward', image: imgpath },
